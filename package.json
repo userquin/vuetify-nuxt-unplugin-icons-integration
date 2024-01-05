@@ -1,0 +1,22 @@
+{
+  "name": "vuetify-nuxt-module-unplugin-icons",
+  "type": "module",
+  "packageManager": "pnpm@8.14.0",
+  "description": "vuetify-nuxt-module + unplugin-icons integration",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.1.1",
+    "@iconify-json/logos": "^1.1.37",
+    "@iconify-json/mdi": "^1.1.55",
+    "eslint": "^8.54.0",
+    "nuxt": "^3.9.0",
+    "typescript": "^5.3.3",
+    "unplugin-icons": "latest",
+    "vuetify-nuxt-module": "^0.8.0"
+  }
+}
