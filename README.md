@@ -1,6 +1,6 @@
-# Nuxt 3 Minimal Starter
+# vuetify-nuxt-module + unplugin-icons inegration
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+**WARNING**: Not all icons have been included, you will need to review the [unplugin-icons/index.ts](unplugin-icons/index.ts) file including the icons you want to use.
 
 ## Setup
 
@@ -14,7 +14,7 @@ yarn install
 npm install
 
 # pnpm
-pnpm install --shamefully-hoist
+pnpm install
 ```
 
 ## Development Server
@@ -25,18 +25,10 @@ Start the development server on http://localhost:3000
 npm run dev
 ```
 
-## Production
-
-Build the application for production:
-
 ```bash
-npm run build
+yarn dev
 ```
 
-Locally preview production build:
-
 ```bash
-npm run preview
+pnpm dev
 ```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
