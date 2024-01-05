@@ -1,4 +1,4 @@
-# vuetify-nuxt-module + unplugin-icons inegration
+# vuetify-nuxt-module + unplugin-icons integration
 
 **WARNING**: Not all icons have been included, you will need to review the [unplugin-icons/index.ts](unplugin-icons/index.ts) file including the icons you want to use.
 
