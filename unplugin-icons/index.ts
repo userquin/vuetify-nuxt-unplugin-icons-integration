@@ -58,6 +58,7 @@ export const aliases = <IconAliases>{
 }
 
 export const unpluginIcons = <IconSet>{
+  // @ts-expect-error Parameter props implicitly has an any type.
   component: (props) => {
     // eslint-disable-next-line no-console
     console.log(props)
