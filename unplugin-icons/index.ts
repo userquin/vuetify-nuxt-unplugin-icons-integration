@@ -63,8 +63,10 @@ export const unpluginIcons = <IconSet>{
     // eslint-disable-next-line no-console
     console.log(props)
     const { icon, tag, ...rest } = props
+    const stringIcon = icon as string
     return h(tag, rest, [
-      h(aliases[icon as string] ?? icon, {
+      h(aliases[stringIcon] ?? icon, {
+        key: stringIcon,
         ...rest,
       }),
     ])
