@@ -59,6 +59,7 @@ export const aliases = <IconAliases>{
 
 export const unpluginIcons = <IconSet>{
   component: (props) => {
+    // eslint-disable-next-line no-console
     console.log(props)
     const { icon, tag, ...rest } = props
     return h(tag, rest, [

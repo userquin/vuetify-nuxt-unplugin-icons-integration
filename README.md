@@ -21,16 +21,15 @@ pnpm install
 
 ## Development Server
 
-Start the development server on http://localhost:3000
+Start the development server on http://localhost:3000:
 
 ```bash
-npm run dev
-```
-
-```bash
+# yarn
 yarn dev
-```
 
-```bash
+# npm
+npm run dev
+
+#pnpm
 pnpm dev
 ```
