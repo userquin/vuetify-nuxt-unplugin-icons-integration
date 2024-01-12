@@ -1,7 +1,7 @@
 {
   "name": "vuetify-nuxt-module-unplugin-icons",
   "type": "module",
-  "packageManager": "pnpm@8.14.0",
+  "packageManager": "pnpm@8.14.1",
   "description": "vuetify-nuxt-module + unplugin-icons integration",
   "scripts": {
     "build": "nuxt build",
@@ -16,9 +16,9 @@
     "@iconify-json/logos": "^1.1.37",
     "@iconify-json/mdi": "^1.1.55",
     "eslint": "^8.54.0",
-    "nuxt": "^3.9.0",
+    "nuxt": "^3.9.1",
     "typescript": "^5.3.3",
     "unplugin-icons": "latest",
-    "vuetify-nuxt-module": "^0.8.0"
+    "vuetify-nuxt-module": "^0.10.1"
   }
 }
