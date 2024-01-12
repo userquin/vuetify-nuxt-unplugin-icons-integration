@@ -19,6 +19,6 @@
     "nuxt": "^3.9.0",
     "typescript": "^5.3.3",
     "unplugin-icons": "latest",
-    "vuetify-nuxt-module": "^0.8.0"
+    "vuetify-nuxt-module": "^0.10.0"
   }
 }
